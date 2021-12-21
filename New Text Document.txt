@@ -1,0 +1,16 @@
+Build an application which consumes a third party api.
+brochure website(front-end)
+E-commerce site(backend dominating)
+Own Portfolio Site
+Build a Game.
+
+Local Weather App.
+Tic Tac Toe  https://davidpnowak.com/p/tic-tac-toe/
+Facial Recoginization (full Stack)  https://smart-brain-dpn.herokuapp.com/
+Most Polluted Cities. https://davidpnowak.com/p/most-polluted-cities/
+https://www.youtube.com/watch?v=PPFz0zVoWvk
+
+Star Wars Plot Generator(Html, Css , JS, React)  https://davidpnowak.com/p/star-wars-plot-generator/
+
+
+
