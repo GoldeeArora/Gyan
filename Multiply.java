@@ -3,9 +3,9 @@ class Solution {
             int i;
         int k;
         char t;
-        int p;
-        long z;
-        int s;
+        int p=0;
+        long z=0;
+        int s=0;
         int j=0;
         while(j<num1.length()+num2.length())
         {i=num2.length()-1;
@@ -19,7 +19,7 @@ class Solution {
                            t=num1.charAt(k);
              
               
-             s+=Integer.parseInt(num2.charAt(i--))*Integer.parseInt(t);
+             s+=(num2.charAt(i--)-'0')*(t-'0');
              s+=p;
              k++;
             }
@@ -30,7 +30,7 @@ class Solution {
                     continue;
              else
                  t=num1.charAt(k);
-             s+=num2[i--]*t;
+             s+=(num2.charAt(i--)-'0')*(t-'0');
              s+=p;
              k++;
             }
@@ -48,6 +48,7 @@ class Solution {
         input1.reverse();
  
         // print reversed String
-        return input1;
+        String singleString = input1.toString();
+        return singleString;
     }
 }
